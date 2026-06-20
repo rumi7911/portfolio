@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { bookConsultUrl } from '@/content/links';
 
 const socialLinks = [
   {
@@ -49,32 +50,50 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="mt-24 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-muted uppercase tracking-wider" style={{ borderColor: 'var(--border)' }}>
-      <p className="font-mono">
-        © 2021–{currentYear} Muhammad Sohaib Roomi
-      </p>
+    <footer className="mt-24 border-t border-border pt-8">
+      <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-wider text-muted">
+            © 2021–{currentYear} Muhammad Sohaib Roomi
+          </p>
+          <p className="mt-2 text-sm text-muted">
+            Secure AI operations systems for service businesses.
+          </p>
+        </div>
 
-      <div className="flex items-center gap-6">
-        <Link href="/blog" className="font-mono hover:text-link transition-colors">
-          Writing
-        </Link>
-        <Link href="/about" className="font-mono hover:text-link transition-colors">
-          About
-        </Link>
+        <div className="flex flex-wrap items-center gap-5 text-xs uppercase tracking-wider text-muted">
+          <a
+            href={bookConsultUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-9 items-center justify-center rounded border border-border px-3 py-1.5 text-center font-mono font-semibold leading-none text-ink transition-colors hover:border-accent hover:text-accent dark:text-paper"
+          >
+            <span className="whitespace-nowrap">Book AI consult</span>
+          </a>
+          <Link href="/projects" className="font-mono transition-colors hover:text-link">
+            Work
+          </Link>
+          <Link href="/blog" className="font-mono transition-colors hover:text-link">
+            Writing
+          </Link>
+          <Link href="/about" className="font-mono transition-colors hover:text-link">
+            About
+          </Link>
 
-        <div className="flex items-center gap-4 pl-4 border-l" style={{ borderColor: 'var(--border)' }}>
-          {socialLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={link.label}
-              className="hover:text-link transition-colors"
-            >
-              {link.icon}
-            </a>
-          ))}
+          <div className="flex items-center gap-4 border-l border-border pl-4">
+            {socialLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={link.label}
+                className="transition-colors hover:text-link"
+              >
+                {link.icon}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </footer>

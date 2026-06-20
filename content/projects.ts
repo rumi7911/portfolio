@@ -4,6 +4,8 @@ export interface Project {
   href: string;
   year: string;
   tags: string[];
+  role: string;
+  outcome: string;
   featured?: boolean;
 }
 
@@ -11,18 +13,22 @@ export const projects: Project[] = [
   {
     title: 'Cognumi',
     description:
-      'AI-managed operations for service businesses. I’m building the platform that lets small teams automate scheduling, client follow-ups, reporting, and back-office workflows without hiring more ops people.',
+      'AI-managed operations for service businesses. The platform focuses on automating scheduling, client follow-ups, reporting, and back-office workflows without adding headcount.',
     href: 'https://www.cognumi.co.uk/',
     year: '2024–Present',
+    role: 'Founder',
+    outcome: 'AI operations platform for service teams',
     tags: ['AI', 'Operations', 'Founder', 'SaaS'],
     featured: true,
   },
   {
     title: 'agentalent.ai — Custom Agentic Workflows',
     description:
-      'A consulting and productized-service arm where I design, build, and deploy custom AI agents for businesses. From autonomous research agents to CRM-integrated outreach workflows.',
+      'Custom AI agents and workflow deployments for teams that need reliable automation across research, outreach, reporting, and internal operations.',
     href: 'https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9',
     year: '2024–Present',
+    role: 'Builder',
+    outcome: 'Client-facing agentic automation work',
     tags: ['Agentic AI', 'Automation', 'LLMs', 'Consulting'],
     featured: true,
   },
@@ -31,8 +37,31 @@ export const projects: Project[] = [
     description:
       'A native macOS clipboard manager that lives in the menu bar. Stores text, images, videos, and file references in a fast, searchable, local-first archive.',
     href: 'https://github.com/rumi7911/ClipSpot',
-    year: '2024',
+    year: '2026',
+    role: 'Creator',
+    outcome: 'Local-first Swift productivity app',
     tags: ['Swift', 'macOS', 'Native', 'Open Source'],
+    featured: true,
+  },
+  {
+    title: 'Lockey',
+    description:
+      'A lightweight macOS menu-bar utility that temporarily locks keyboard input so a keyboard can be cleaned without accidental key presses.',
+    href: 'https://github.com/rumi7911/Lockey',
+    year: '2026',
+    role: 'Creator',
+    outcome: 'Practical macOS accessibility utility',
+    tags: ['Swift', 'macOS', 'Menu Bar', 'Utility'],
+  },
+  {
+    title: 'Bekon',
+    description:
+      'A lightweight macOS menu-bar utility that helps people find their cursor instantly, built around a small accessibility-focused workflow.',
+    href: 'https://github.com/rumi7911/Bekon',
+    year: '2026',
+    role: 'Creator',
+    outcome: 'Cursor-finding utility for macOS',
+    tags: ['Swift', 'Accessibility', 'macOS', 'Menu Bar'],
   },
   {
     title: 'Nessus vs OpenVAS Vulnerability Scanner Study',
@@ -40,6 +69,8 @@ export const projects: Project[] = [
       'Master’s thesis research comparing proprietary and open-source vulnerability scanners on standard and intentionally vulnerable Ubuntu web server installations.',
     href: '#',
     year: '2022–2023',
+    role: 'Researcher',
+    outcome: 'Security research on scanner reliability',
     tags: ['Cybersecurity', 'Research', 'Linux', 'Vulnerability Scanning'],
   },
 ];
