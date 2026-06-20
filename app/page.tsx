@@ -3,6 +3,7 @@ import { ProjectCard } from '@/components/ProjectCard';
 import { PostList } from '@/components/PostList';
 import { projects } from '@/content/projects';
 import { getAllPosts } from '@/lib/posts';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -67,12 +68,13 @@ export default function Home() {
                 boxShadow: '0 1px 2px rgba(0,0,0,0.08)',
               }}
             />
-            <img
+            <Image
               src="/headshot.jpg"
               alt="Muhammad Sohaib Roomi"
               width={176}
               height={235}
               className="block w-[176px] h-auto object-cover"
+              priority
             />
             <p className="mt-4 text-center font-serif italic text-sm text-muted">
               London, 2021
