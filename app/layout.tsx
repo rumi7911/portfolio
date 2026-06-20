@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { Nav } from '@/components/Nav';
+import { Footer } from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 const inter = Inter({
@@ -48,6 +49,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-content px-6 pb-24 pt-9">
             <Nav />
             <main>{children}</main>
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
