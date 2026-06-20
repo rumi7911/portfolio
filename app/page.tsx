@@ -5,6 +5,7 @@ import { projects } from '@/content/projects';
 import { getAllPosts } from '@/lib/posts';
 import Image from 'next/image';
 import Link from 'next/link';
+import headshot from '@/public/headshot.jpg';
 
 export default function Home() {
   const posts = getAllPosts().slice(0, 3);
@@ -69,7 +70,7 @@ export default function Home() {
               }}
             />
             <Image
-              src="/headshot.jpg"
+              src={headshot}
               alt="Muhammad Sohaib Roomi"
               width={176}
               height={235}
