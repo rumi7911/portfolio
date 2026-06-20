@@ -4,7 +4,11 @@ import { PostList } from '@/components/PostList';
 import { ProjectCard } from '@/components/ProjectCard';
 import { ProofBlock } from '@/components/ProofBlock';
 import { SocialLinks } from '@/components/SocialLinks';
-import { bookConsultUrl, foundationPostUrl } from '@/content/links';
+import {
+  bookConsultUrl,
+  foundationPostUrl,
+  mobileAppsBookGumroadUrl,
+} from '@/content/links';
 import { projects } from '@/content/projects';
 import { getAllPosts } from '@/lib/posts';
 import Image from 'next/image';
@@ -64,7 +68,16 @@ export default function Home() {
             >
               agentalent.ai
             </a>
-            , cybersecurity research, and shipped native Swift utilities.
+            , cybersecurity research, shipped native Swift utilities, and a{' '}
+            <a
+              href={mobileAppsBookGumroadUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              published guide to building mobile apps with Claude Code
+            </a>
+            .
           </p>
 
           <div className="mt-10">
@@ -107,6 +120,12 @@ export default function Home() {
                 <p className="font-mono text-base font-semibold">Builder</p>
                 <p className="mt-1 text-sm text-muted">
                   Agentic workflows and Swift macOS tools
+                </p>
+              </div>
+              <div>
+                <p className="font-mono text-base font-semibold">Author</p>
+                <p className="mt-1 text-sm text-muted">
+                  Building Mobile Apps with Claude Code
                 </p>
               </div>
               <div>

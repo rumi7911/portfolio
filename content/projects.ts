@@ -1,3 +1,8 @@
+import {
+  mobileAppsBookAmazonUrl,
+  mobileAppsBookGumroadUrl,
+} from '@/content/links';
+
 export interface Project {
   title: string;
   description: string;
@@ -44,6 +49,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'Building Mobile Apps with Claude Code in 2026',
+    description:
+      'A practical book for non-technical founders and vibe-coders who want to build and ship real mobile apps with Claude Code, Expo, React Native, Supabase, Anthropic Vision API, and EAS.',
+    href: mobileAppsBookGumroadUrl,
+    year: '2026',
+    role: 'Author',
+    outcome: '186-page guide from zero to App Store',
+    tags: ['Book', 'Claude Code', 'React Native', 'Expo', 'AI Coding'],
+    featured: true,
+  },
+  {
     title: 'Lockey',
     description:
       'A lightweight macOS menu-bar utility that temporarily locks keyboard input so a keyboard can be cleaned without accidental key presses.',
@@ -72,5 +88,15 @@ export const projects: Project[] = [
     role: 'Researcher',
     outcome: 'Security research on scanner reliability',
     tags: ['Cybersecurity', 'Research', 'Linux', 'Vulnerability Scanning'],
+  },
+  {
+    title: 'Building Mobile Apps with Claude Code — Amazon',
+    description:
+      'Kindle and paperback edition of the mobile app building guide, published under Muhammad Sohaib Roomi for readers who prefer Amazon.',
+    href: mobileAppsBookAmazonUrl,
+    year: '2026',
+    role: 'Author',
+    outcome: 'Kindle and paperback edition',
+    tags: ['Book', 'Amazon', 'Mobile Apps', 'Claude Code'],
   },
 ];

@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     'AI automation consulting',
     'service business automation',
     'secure AI systems',
+    'Claude Code mobile apps',
+    'React Native AI development',
+    'Expo app development',
     'Cognumi',
     'Muhammad Sohaib Roomi',
   ],
@@ -92,6 +95,10 @@ const personJsonLd = {
     'secure AI systems',
     'cybersecurity',
     'macOS utilities',
+    'Claude Code',
+    'React Native',
+    'Expo',
+    'AI-assisted mobile app development',
   ],
 };
 

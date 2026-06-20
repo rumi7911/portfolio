@@ -1,7 +1,7 @@
 import { CTAButton } from '@/components/CTAButton';
 import { JsonLd } from '@/components/JsonLd';
 import { SocialLinks } from '@/components/SocialLinks';
-import { bookConsultUrl } from '@/content/links';
+import { bookConsultUrl, mobileAppsBookGumroadUrl } from '@/content/links';
 import { absoluteUrl, author } from '@/content/site';
 
 export const metadata = {
@@ -97,6 +97,20 @@ export default function About() {
             ClipSpot, Lockey, and Bekon. Those projects reflect the same bias:
             small tools, clear workflows, and software that respects daily
             operations.
+          </p>
+          <p>
+            I wrote{' '}
+            <a
+              href={mobileAppsBookGumroadUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              Building Mobile Apps with Claude Code in 2026
+            </a>
+            , a practical guide for non-technical founders and AI-assisted
+            builders who want to ship real React Native and Expo apps from
+            idea to App Store.
           </p>
         </div>
       </section>

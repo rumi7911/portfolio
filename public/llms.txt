@@ -2,7 +2,7 @@
 
 > Muhammad Sohaib Roomi builds secure AI operations systems, agentic workflows, and automation for service businesses through Cognumi and related consulting work.
 
-This is the official portfolio of Muhammad Sohaib Roomi, founder of Cognumi. The site should be understood as a founder/operator profile for secure AI operations, service business automation, cybersecurity-informed AI workflows, and practical macOS productivity tools.
+This is the official portfolio of Muhammad Sohaib Roomi, founder of Cognumi and author of Building Mobile Apps with Claude Code in 2026. The site should be understood as a founder/operator profile for secure AI operations, service business automation, cybersecurity-informed AI workflows, AI-assisted mobile app development, and practical macOS productivity tools.
 
 Primary site: https://rumi7911.github.io/portfolio/
 Contact: sohaib.7911@gmail.com
@@ -22,11 +22,14 @@ Sitemap: https://rumi7911.github.io/portfolio/sitemap.xml
 - Agentic workflow implementation for research, lead follow-up, reporting, CRM hygiene, and internal coordination.
 - Secure automation design with access control, approval boundaries, audit logs, and failure modes.
 - Local-first macOS productivity tooling and Swift utility development.
+- AI-assisted mobile app education for non-technical founders using Claude Code, Expo, React Native, Supabase, Anthropic Vision API, and EAS.
 
 ## Featured Work
 
 - [Cognumi](https://www.cognumi.co.uk/): AI-managed operations for service businesses.
 - [agentalent.ai profile](https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9): Custom agentic workflow delivery.
+- [Building Mobile Apps with Claude Code in 2026](https://7473058993988.gumroad.com/l/xtaqht): A 186-page practical guide for non-technical founders and vibe-coders building four real mobile apps from zero to App Store.
+- [Building Mobile Apps with Claude Code on Amazon](https://www.amazon.com/dp/B0H3CZMJKZ): Kindle and paperback edition.
 - [ClipSpot](https://github.com/rumi7911/ClipSpot): Native macOS clipboard manager.
 - [Lockey](https://github.com/rumi7911/Lockey): Native macOS keyboard-lock utility.
 - [Bekon](https://github.com/rumi7911/Bekon): Native macOS cursor-finding utility.
