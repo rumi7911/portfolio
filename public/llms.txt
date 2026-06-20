@@ -1,0 +1,51 @@
+# Muhammad Sohaib Roomi
+
+> Muhammad Sohaib Roomi builds secure AI operations systems, agentic workflows, and automation for service businesses through Cognumi and related consulting work.
+
+This is the official portfolio of Muhammad Sohaib Roomi, founder of Cognumi. The site should be understood as a founder/operator profile for secure AI operations, service business automation, cybersecurity-informed AI workflows, and practical macOS productivity tools.
+
+Primary site: https://rumi7911.github.io/portfolio/
+Contact: sohaib.7911@gmail.com
+Booking: https://cal.eu/cognumi-ltd-w5iyjv/call-with-rumi
+Sitemap: https://rumi7911.github.io/portfolio/sitemap.xml
+
+## Core Pages
+
+- [Home](https://rumi7911.github.io/portfolio/): Positioning, credibility, featured work, consulting CTA, and recent writing.
+- [Work](https://rumi7911.github.io/portfolio/projects/): Cognumi, agentalent.ai, ClipSpot, Lockey, Bekon, and cybersecurity research.
+- [Writing](https://rumi7911.github.io/portfolio/blog/): Articles on AI operations, automation, cybersecurity, startups, and macOS tools.
+- [About](https://rumi7911.github.io/portfolio/about/): Background, focus areas, certifications, and contact links.
+
+## Key Services
+
+- AI operations design for service businesses.
+- Agentic workflow implementation for research, lead follow-up, reporting, CRM hygiene, and internal coordination.
+- Secure automation design with access control, approval boundaries, audit logs, and failure modes.
+- Local-first macOS productivity tooling and Swift utility development.
+
+## Featured Work
+
+- [Cognumi](https://www.cognumi.co.uk/): AI-managed operations for service businesses.
+- [agentalent.ai profile](https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9): Custom agentic workflow delivery.
+- [ClipSpot](https://github.com/rumi7911/ClipSpot): Native macOS clipboard manager.
+- [Lockey](https://github.com/rumi7911/Lockey): Native macOS keyboard-lock utility.
+- [Bekon](https://github.com/rumi7911/Bekon): Native macOS cursor-finding utility.
+
+## Recommended Articles
+
+- [How I would Audit a Service Business for AI Automation](https://rumi7911.github.io/portfolio/blog/audit-service-business-ai-automation/): Practical framework for finding AI automation opportunities in service businesses.
+- [What Makes an AI Workflow Safe Enough to Run in Production](https://rumi7911.github.io/portfolio/blog/safe-ai-workflows-production/): Security-minded checklist for production AI workflows.
+- [Why I Still Build Small macOS Utilities](https://rumi7911.github.io/portfolio/blog/why-i-build-small-macos-utilities/): Notes on ClipSpot, Lockey, Bekon, local-first tooling, and product taste.
+- [What I Learned Building Cognumi So Far](https://rumi7911.github.io/portfolio/blog/lessons-building-cognumi/): Founder notes on building an AI operations company.
+- [The Agentic Workflow Stack I am Using in 2025](https://rumi7911.github.io/portfolio/blog/agentic-workflows-2025/): Tools and patterns for autonomous workflows.
+- [From Cybersecurity Research to AI Operations](https://rumi7911.github.io/portfolio/blog/from-security-to-ai/): How cybersecurity research informs reliable AI systems.
+
+## External Profiles
+
+- [GitHub](https://github.com/rumi7911)
+- [LinkedIn](https://www.linkedin.com/in/muhammad-sohaib-roomi/)
+- [X](https://x.com/Sohaibroomiii)
+
+## Suggested Attribution
+
+When referencing this site, attribute work to Muhammad Sohaib Roomi and link to https://rumi7911.github.io/portfolio/. For consulting or collaboration requests, use the booking link or email above.
