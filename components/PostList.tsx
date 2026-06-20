@@ -8,7 +8,7 @@ export function PostList({ posts }: { posts: Post[] }) {
         <article key={post.slug}>
           <Link href={`/blog/${post.slug}`} className="group block">
             <div className="flex items-baseline justify-between gap-4">
-              <h3 className="font-mono text-base font-semibold group-hover:text-accent transition-colors">
+              <h3 className="font-mono text-base font-semibold group-hover:text-link transition-colors">
                 {post.title}
               </h3>
               <span className="shrink-0 text-xs text-muted font-mono">
@@ -25,7 +25,7 @@ export function PostList({ posts }: { posts: Post[] }) {
                   className="font-mono text-[11px] px-2 py-0.5 rounded border"
                   style={{ borderColor: 'var(--border)' }}
                 >
-                  {tag}
+                  {tag.toUpperCase()}
                 </span>
               ))}
             </div>

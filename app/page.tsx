@@ -16,8 +16,7 @@ export default function Home() {
       <section className="grid grid-cols-1 md:grid-cols-[1fr_200px] gap-12 items-start">
         <div>
           <h1 className="font-mono text-3xl sm:text-4xl font-semibold leading-tight">
-            Hey, I’m Sohaib. I build AI operations at Cognumi and design agentic
-            workflows.
+            Hey, I’m Sohaib. I design & build AI workflows at Cognumi.
           </h1>
           <p className="mt-6 text-base leading-relaxed text-muted max-w-2xl">
             I’m the founder of{' '}
@@ -25,7 +24,7 @@ export default function Home() {
               href="https://www.cognumi.co.uk/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ink dark:text-paper underline underline-offset-4 hover:text-accent transition-colors"
+              className="link"
             >
               Cognumi
             </a>
@@ -35,20 +34,11 @@ export default function Home() {
               href="https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ink dark:text-paper underline underline-offset-4 hover:text-accent transition-colors"
+              className="link"
             >
               agentalent.ai
             </a>
-            . Previously, I worked in cybersecurity research and shipped{' '}
-            <a
-              href="https://github.com/rumi7911/ClipSpot"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-ink dark:text-paper underline underline-offset-4 hover:text-accent transition-colors"
-            >
-              ClipSpot
-            </a>
-            , a native macOS clipboard manager.
+            . Previously, I worked in cybersecurity research and shipped native macOS productivity apps.
           </p>
           <div className="mt-8">
             <SocialLinks />

@@ -1,4 +1,4 @@
-import { PostList } from '@/components/PostList';
+import { BlogContent } from '@/components/BlogContent';
 import { getAllPosts } from '@/lib/posts';
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function Blog() {
         </p>
       </div>
 
-      <PostList posts={posts} />
+      <BlogContent posts={posts} />
     </div>
   );
 }

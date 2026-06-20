@@ -18,7 +18,7 @@ export default function About() {
             href="https://www.cognumi.co.uk/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-ink dark:text-paper underline underline-offset-4 hover:text-accent"
+            className="link"
           >
             Cognumi
           </a>
@@ -30,7 +30,7 @@ export default function About() {
             href="https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-ink dark:text-paper underline underline-offset-4 hover:text-accent"
+            className="link"
           >
             agentalent.ai
           </a>

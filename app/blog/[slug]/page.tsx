@@ -33,7 +33,7 @@ export default async function BlogPost({ params }: Props) {
       <div className="space-y-4">
         <Link
           href="/blog"
-          className="text-sm font-mono text-muted hover:text-accent transition-colors"
+          className="text-sm font-mono text-muted hover:text-link transition-colors"
         >
           ← Writing
         </Link>
@@ -48,7 +48,7 @@ export default async function BlogPost({ params }: Props) {
               className="px-2 py-0.5 rounded border"
               style={{ borderColor: 'var(--border)' }}
             >
-              {tag}
+              {tag.toUpperCase()}
             </span>
           ))}
         </div>

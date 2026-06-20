@@ -10,7 +10,7 @@ export function ProjectCard({ project }: { project: Project }) {
         className="block"
       >
         <div className="flex items-baseline justify-between gap-4">
-          <h3 className="font-mono text-base font-semibold group-hover:text-accent transition-colors">
+          <h3 className="font-mono text-base font-semibold group-hover:text-link transition-colors">
             {project.title}
           </h3>
           <span className="shrink-0 text-xs text-muted font-mono">{project.year}</span>
@@ -25,7 +25,7 @@ export function ProjectCard({ project }: { project: Project }) {
               className="font-mono text-[11px] px-2 py-0.5 rounded border"
               style={{ borderColor: 'var(--border)' }}
             >
-              {tag}
+              {tag.toUpperCase()}
             </span>
           ))}
         </div>
