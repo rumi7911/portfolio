@@ -1,3 +1,9 @@
+import {
+  mobileAppsBookAmazonUrl,
+  mobileAppsBookGumroadUrl,
+  mobileAppsBookMediumUrl,
+} from '@/content/links';
+
 const links = [
   {
     label: 'Twitter',
@@ -57,6 +63,62 @@ const links = [
       >
         <rect width="20" height="16" x="2" y="4" rx="2" />
         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Medium',
+    href: mobileAppsBookMediumUrl,
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="h-4 w-4"
+        aria-hidden="true"
+      >
+        <path d="M13.54 12a6.77 6.77 0 0 1-6.77 6.77A6.77 6.77 0 0 1 0 12a6.77 6.77 0 0 1 6.77-6.77A6.77 6.77 0 0 1 13.54 12Zm7.43 0c0 3.51-1.52 6.36-3.39 6.36s-3.39-2.85-3.39-6.36 1.52-6.36 3.39-6.36 3.39 2.85 3.39 6.36ZM24 12c0 3.15-.53 5.7-1.19 5.7-.65 0-1.18-2.55-1.18-5.7s.53-5.7 1.18-5.7C23.47 6.3 24 8.85 24 12Z" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Gumroad',
+    href: mobileAppsBookGumroadUrl,
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-4 w-4"
+        aria-hidden="true"
+      >
+        <path d="M6 7.5h12" />
+        <path d="M6 12h10" />
+        <path d="M6 16.5h7" />
+        <rect width="16" height="18" x="4" y="3" rx="2" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Kindle',
+    href: mobileAppsBookAmazonUrl,
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-4 w-4"
+        aria-hidden="true"
+      >
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15Z" />
+        <path d="M8 6h8" />
+        <path d="M8 10h6" />
       </svg>
     ),
   },
