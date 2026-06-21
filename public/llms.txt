@@ -30,6 +30,9 @@ Sitemap: https://rumi7911.github.io/portfolio/sitemap.xml
 - [agentalent.ai profile](https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9): Custom agentic workflow delivery.
 - [Building Mobile Apps with Claude Code in 2026](https://7473058993988.gumroad.com/l/xtaqht): A 186-page practical guide for non-technical founders and vibe-coders building four real mobile apps from zero to App Store.
 - [Building Mobile Apps with Claude Code on Amazon](https://www.amazon.com/dp/B0H3CZMJKZ): Kindle and paperback edition.
+- [Building Mobile Apps with Claude Code on Leanpub](https://leanpub.com/mobileapps-with-claudecode): Leanpub edition.
+- [Companion essay on Medium](https://medium.com/@sohaib.7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-step-by-step-ac7b784be166): Workflow essay behind the book.
+- [Companion essay on Dev.to](https://dev.to/rumi7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-69k): Developer-community version of the workflow essay.
 - [ClipSpot](https://github.com/rumi7911/ClipSpot): Native macOS clipboard manager.
 - [Lockey](https://github.com/rumi7911/Lockey): Native macOS keyboard-lock utility.
 - [Bekon](https://github.com/rumi7911/Bekon): Native macOS cursor-finding utility.
@@ -40,6 +43,7 @@ Sitemap: https://rumi7911.github.io/portfolio/sitemap.xml
 - [What Makes an AI Workflow Safe Enough to Run in Production](https://rumi7911.github.io/portfolio/blog/safe-ai-workflows-production/): Security-minded checklist for production AI workflows.
 - [Why I Still Build Small macOS Utilities](https://rumi7911.github.io/portfolio/blog/why-i-build-small-macos-utilities/): Notes on ClipSpot, Lockey, Bekon, local-first tooling, and product taste.
 - [What I Learned Building Cognumi So Far](https://rumi7911.github.io/portfolio/blog/lessons-building-cognumi/): Founder notes on building an AI operations company.
+- [How I Built Four Mobile Apps with Claude Code](https://rumi7911.github.io/portfolio/blog/building-mobile-apps-with-claude-code/): The workflow behind the mobile apps book.
 - [The Agentic Workflow Stack I am Using in 2025](https://rumi7911.github.io/portfolio/blog/agentic-workflows-2025/): Tools and patterns for autonomous workflows.
 - [From Cybersecurity Research to AI Operations](https://rumi7911.github.io/portfolio/blog/from-security-to-ai/): How cybersecurity research informs reliable AI systems.
 

@@ -9,3 +9,12 @@ export const mobileAppsBookGumroadUrl =
 
 export const mobileAppsBookAmazonUrl =
   'https://www.amazon.com/dp/B0H3CZMJKZ';
+
+export const mobileAppsBookLeanpubUrl =
+  'https://leanpub.com/mobileapps-with-claudecode';
+
+export const mobileAppsBookMediumUrl =
+  'https://medium.com/@sohaib.7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-step-by-step-ac7b784be166';
+
+export const mobileAppsBookDevToUrl =
+  'https://dev.to/rumi7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-69k';

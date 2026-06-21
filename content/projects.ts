@@ -1,6 +1,9 @@
 import {
   mobileAppsBookAmazonUrl,
+  mobileAppsBookDevToUrl,
   mobileAppsBookGumroadUrl,
+  mobileAppsBookLeanpubUrl,
+  mobileAppsBookMediumUrl,
 } from '@/content/links';
 
 export interface Project {
@@ -12,6 +15,10 @@ export interface Project {
   role: string;
   outcome: string;
   featured?: boolean;
+  links?: Array<{
+    label: string;
+    href: string;
+  }>;
 }
 
 export const projects: Project[] = [
@@ -58,6 +65,13 @@ export const projects: Project[] = [
     outcome: '186-page guide from zero to App Store',
     tags: ['Book', 'Claude Code', 'React Native', 'Expo', 'AI Coding'],
     featured: true,
+    links: [
+      { label: 'Gumroad', href: mobileAppsBookGumroadUrl },
+      { label: 'Amazon', href: mobileAppsBookAmazonUrl },
+      { label: 'Leanpub', href: mobileAppsBookLeanpubUrl },
+      { label: 'Medium', href: mobileAppsBookMediumUrl },
+      { label: 'Dev.to', href: mobileAppsBookDevToUrl },
+    ],
   },
   {
     title: 'Lockey',
@@ -88,15 +102,5 @@ export const projects: Project[] = [
     role: 'Researcher',
     outcome: 'Security research on scanner reliability',
     tags: ['Cybersecurity', 'Research', 'Linux', 'Vulnerability Scanning'],
-  },
-  {
-    title: 'Building Mobile Apps with Claude Code — Amazon',
-    description:
-      'Kindle and paperback edition of the mobile app building guide, published under Muhammad Sohaib Roomi for readers who prefer Amazon.',
-    href: mobileAppsBookAmazonUrl,
-    year: '2026',
-    role: 'Author',
-    outcome: 'Kindle and paperback edition',
-    tags: ['Book', 'Amazon', 'Mobile Apps', 'Claude Code'],
   },
 ];
