@@ -1,4 +1,5 @@
 import {
+  hashnodeUrl,
   mobileAppsBookAmazonUrl,
   mobileAppsBookGumroadUrl,
   mobileAppsBookMediumUrl,
@@ -119,6 +120,20 @@ const links = [
         <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15Z" />
         <path d="M8 6h8" />
         <path d="M8 10h6" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Hashnode',
+    href: hashnodeUrl,
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="h-4 w-4"
+        aria-hidden="true"
+      >
+        <path d="M7.22 1.66a4.82 4.82 0 0 1 6.82 0l8.3 8.3a2.89 2.89 0 0 1 0 4.08l-8.3 8.3a4.82 4.82 0 0 1-6.82 0l-5.56-5.56a4.82 4.82 0 0 1 0-6.82zm4.78 14.1a3.76 3.76 0 1 0 0-7.52 3.76 3.76 0 0 0 0 7.52z" />
       </svg>
     ),
   },

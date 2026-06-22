@@ -18,3 +18,5 @@ export const mobileAppsBookMediumUrl =
 
 export const mobileAppsBookDevToUrl =
   'https://dev.to/rumi7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-69k';
+
+export const hashnodeUrl = 'https://cognumi.hashnode.dev/';
