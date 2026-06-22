@@ -4,6 +4,8 @@ import {
   mobileAppsBookGumroadUrl,
   mobileAppsBookLeanpubUrl,
   mobileAppsBookMediumUrl,
+  relevanceAiAgentThreeUrl,
+  relevanceAiAgentTwoUrl,
   relevanceAiAgentUrl,
 } from '@/content/links';
 
@@ -46,15 +48,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: 'Relevance AI Marketplace Agent',
+    title: 'Relevance AI Marketplace Agents',
     description:
-      'A marketplace-listed Relevance AI agent extending the Cognumi agent bench into another deployable automation surface for practical business workflows.',
+      'A growing set of marketplace-listed Relevance AI agents extending the Cognumi agent bench into deployable automation surfaces for practical business workflows.',
     href: relevanceAiAgentUrl,
     year: '2026',
     role: 'Agent Builder',
-    outcome: 'Published marketplace agent workflow',
+    outcome: 'Three published marketplace agent workflows',
     tags: ['Relevance AI', 'AI Agent', 'Marketplace', 'Automation'],
     featured: true,
+    links: [
+      { label: 'Agent 1', href: relevanceAiAgentUrl },
+      { label: 'Agent 2', href: relevanceAiAgentTwoUrl },
+      { label: 'Agent 3', href: relevanceAiAgentThreeUrl },
+    ],
   },
   {
     title: 'ClipSpot',

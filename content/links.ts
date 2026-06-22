@@ -23,3 +23,9 @@ export const hashnodeUrl = 'https://cognumi.hashnode.dev/';
 
 export const relevanceAiAgentUrl =
   'https://marketplace.relevanceai.com/listing/881ce9f8-f300-478b-82ef-52055d3c833c';
+
+export const relevanceAiAgentTwoUrl =
+  'https://marketplace.relevanceai.com/listing/5fcb788a-6974-4c70-a6c7-1f9b22577d80';
+
+export const relevanceAiAgentThreeUrl =
+  'https://marketplace.relevanceai.com/listing/b48057c2-ce33-4738-a24e-5f8e28aa4f72';

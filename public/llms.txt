@@ -28,7 +28,9 @@ Sitemap: https://rumi7911.github.io/portfolio/sitemap.xml
 
 - [Cognumi](https://www.cognumi.co.uk/): AI-managed operations for service businesses.
 - [agentalent.ai profile](https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9): Custom agentic workflow delivery.
-- [Relevance AI Marketplace Agent](https://marketplace.relevanceai.com/listing/881ce9f8-f300-478b-82ef-52055d3c833c): Marketplace-listed AI agent workflow extending the Cognumi agent bench.
+- [Relevance AI Marketplace Agents](https://marketplace.relevanceai.com/listing/881ce9f8-f300-478b-82ef-52055d3c833c): Marketplace-listed AI agent workflows extending the Cognumi agent bench.
+- [Relevance AI Marketplace Agent 2](https://marketplace.relevanceai.com/listing/5fcb788a-6974-4c70-a6c7-1f9b22577d80): Additional deployed Relevance AI marketplace agent.
+- [Relevance AI Marketplace Agent 3](https://marketplace.relevanceai.com/listing/b48057c2-ce33-4738-a24e-5f8e28aa4f72): Additional deployed Relevance AI marketplace agent.
 - [Building Mobile Apps with Claude Code in 2026](https://7473058993988.gumroad.com/l/xtaqht): A 186-page practical guide for non-technical founders and vibe-coders building four real mobile apps from zero to App Store.
 - [Building Mobile Apps with Claude Code on Amazon](https://www.amazon.com/dp/B0H3CZMJKZ): Kindle and paperback edition.
 - [Building Mobile Apps with Claude Code on Leanpub](https://leanpub.com/mobileapps-with-claudecode): Leanpub edition.
