@@ -4,6 +4,7 @@ import {
   mobileAppsBookGumroadUrl,
   mobileAppsBookLeanpubUrl,
   mobileAppsBookMediumUrl,
+  relevanceAiAgentUrl,
 } from '@/content/links';
 
 export interface Project {
@@ -42,6 +43,17 @@ export const projects: Project[] = [
     role: 'Builder',
     outcome: 'Client-facing agentic automation work',
     tags: ['Agentic AI', 'Automation', 'LLMs', 'Consulting'],
+    featured: true,
+  },
+  {
+    title: 'Relevance AI Marketplace Agent',
+    description:
+      'A marketplace-listed Relevance AI agent extending the Cognumi agent bench into another deployable automation surface for practical business workflows.',
+    href: relevanceAiAgentUrl,
+    year: '2026',
+    role: 'Agent Builder',
+    outcome: 'Published marketplace agent workflow',
+    tags: ['Relevance AI', 'AI Agent', 'Marketplace', 'Automation'],
     featured: true,
   },
   {

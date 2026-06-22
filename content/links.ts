@@ -20,3 +20,6 @@ export const mobileAppsBookDevToUrl =
   'https://dev.to/rumi7911/i-built-4-real-mobile-apps-with-no-coding-background-heres-the-exact-workflow-69k';
 
 export const hashnodeUrl = 'https://cognumi.hashnode.dev/';
+
+export const relevanceAiAgentUrl =
+  'https://marketplace.relevanceai.com/listing/881ce9f8-f300-478b-82ef-52055d3c833c';
