@@ -68,7 +68,8 @@ export default function Home() {
             >
               agentalent.ai
             </a>
-            , cybersecurity research, shipped native Swift utilities, and a{' '}
+            , Gold-verified UK cybersecurity compliance agents, shipped native
+            Swift utilities, and a{' '}
             <a
               href={mobileAppsBookGumroadUrl}
               target="_blank"
@@ -131,7 +132,7 @@ export default function Home() {
               <div>
                 <p className="font-mono text-base font-semibold">Security</p>
                 <p className="mt-1 text-sm text-muted">
-                  Vulnerability scanner research and certifications
+                  UK compliance agents and vulnerability scanner research
                 </p>
               </div>
             </div>
@@ -155,8 +156,8 @@ export default function Home() {
           />
           <ProofBlock
             label="Foundation"
-            title="Cybersecurity"
-            description="Research background in vulnerability scanning, network defense, and security essentials."
+            title="Security agents"
+            description="UK-focused agents for Cyber Essentials, GDPR breach response, pentest reporting, and security awareness."
             href={foundationPostUrl}
           />
           <ProofBlock
@@ -214,8 +215,8 @@ export default function Home() {
           />
           <CapabilityRow
             title="Secure automation"
-            description="Bring a cybersecurity lens to automation: data boundaries, failure modes, access control, auditability, and human review where it matters."
-            detail="Security-minded delivery"
+            description="Bring a cybersecurity lens to automation: UK compliance workflows, data boundaries, failure modes, access control, auditability, and human review where it matters."
+            detail="Compliance-minded delivery"
           />
           <CapabilityRow
             title="Local-first tooling"

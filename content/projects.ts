@@ -1,4 +1,5 @@
 import {
+  agentTalentBuilderUrl,
   mobileAppsBookAmazonUrl,
   mobileAppsBookDevToUrl,
   mobileAppsBookGumroadUrl,
@@ -61,6 +62,29 @@ export const projects: Project[] = [
       { label: 'Agent 1', href: relevanceAiAgentUrl },
       { label: 'Agent 2', href: relevanceAiAgentTwoUrl },
       { label: 'Agent 3', href: relevanceAiAgentThreeUrl },
+    ],
+  },
+  {
+    title: 'UK Cybersecurity Compliance Agent Portfolio',
+    description:
+      'Four specialist AI agents for UK cybersecurity workflows: pentest reporting, Cyber Essentials readiness, GDPR breach assessment, and security awareness training content.',
+    href: agentTalentBuilderUrl,
+    year: '2026',
+    role: 'Founder and Agent Builder',
+    outcome: 'Gold-verified agents for regulated UK security workflows',
+    tags: [
+      'Cybersecurity',
+      'Compliance',
+      'AI Agents',
+      'UK GDPR',
+      'Cyber Essentials',
+    ],
+    featured: true,
+    links: [
+      { label: 'AgentTalent', href: agentTalentBuilderUrl },
+      { label: 'Relevance Agent 1', href: relevanceAiAgentUrl },
+      { label: 'Relevance Agent 2', href: relevanceAiAgentTwoUrl },
+      { label: 'Relevance Agent 3', href: relevanceAiAgentThreeUrl },
     ],
   },
   {

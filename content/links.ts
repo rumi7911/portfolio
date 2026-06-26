@@ -21,6 +21,9 @@ export const mobileAppsBookDevToUrl =
 
 export const hashnodeUrl = 'https://cognumi.hashnode.dev/';
 
+export const agentTalentBuilderUrl =
+  'https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9';
+
 export const relevanceAiAgentUrl =
   'https://marketplace.relevanceai.com/listing/881ce9f8-f300-478b-82ef-52055d3c833c';
 
