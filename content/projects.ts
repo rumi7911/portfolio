@@ -1,5 +1,7 @@
 import {
   agentTalentBuilderUrl,
+  brightCertLaunchPostUrl,
+  brightCertUrl,
   mobileAppsBookAmazonUrl,
   mobileAppsBookDevToUrl,
   mobileAppsBookGumroadUrl,
@@ -36,6 +38,21 @@ export const projects: Project[] = [
     outcome: 'AI operations platform for service teams',
     tags: ['AI', 'Operations', 'Founder', 'SaaS'],
     featured: true,
+  },
+  {
+    title: 'BrightCert',
+    description:
+      'Cyber Essentials readiness for UK SMEs. BrightCert guides businesses through a plain-English assessment, scores readiness across the five control areas, and produces a practical remediation report before they apply for certification.',
+    href: brightCertUrl,
+    year: '2026–Present',
+    role: 'Founder',
+    outcome: 'Launched Cyber Essentials readiness platform for UK SMEs',
+    tags: ['Cyber Essentials', 'Cybersecurity', 'UK SMEs', 'Compliance', 'SaaS'],
+    featured: true,
+    links: [
+      { label: 'Website', href: brightCertUrl },
+      { label: 'Launch post', href: brightCertLaunchPostUrl },
+    ],
   },
   {
     title: 'agentalent.ai — Custom Agentic Workflows',

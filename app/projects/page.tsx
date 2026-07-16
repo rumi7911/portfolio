@@ -6,14 +6,14 @@ import { projects } from '@/content/projects';
 export const metadata = {
   title: 'Work',
   description:
-    'Cognumi, agentalent.ai, UK cybersecurity compliance agents, Relevance AI marketplace agents, Building Mobile Apps with Claude Code, ClipSpot, Lockey, Bekon, and cybersecurity research by Muhammad Sohaib Roomi.',
+    'Cognumi, BrightCert, agentalent.ai, UK cybersecurity compliance agents, Relevance AI marketplace agents, Building Mobile Apps with Claude Code, ClipSpot, Lockey, Bekon, and cybersecurity research by Muhammad Sohaib Roomi.',
   alternates: {
     canonical: '/projects',
   },
   openGraph: {
     title: 'Work — Muhammad Sohaib Roomi',
     description:
-      'Cognumi, agentalent.ai, UK cybersecurity compliance agents, Relevance AI marketplace agents, Building Mobile Apps with Claude Code, ClipSpot, Lockey, Bekon, and cybersecurity research by Muhammad Sohaib Roomi.',
+      'Cognumi, BrightCert, agentalent.ai, UK cybersecurity compliance agents, Relevance AI marketplace agents, Building Mobile Apps with Claude Code, ClipSpot, Lockey, Bekon, and cybersecurity research by Muhammad Sohaib Roomi.',
     url: absoluteUrl('/projects'),
   },
 };
@@ -44,10 +44,10 @@ export default function Projects() {
           Systems I am building, shipping, and researching.
         </h1>
         <p className="mt-6 text-base leading-relaxed text-muted">
-          A clients-first view of my current startups, custom AI workflow work,
-          UK cybersecurity compliance agents, marketplace agents, published AI
-          development guide, native macOS utilities, and earlier cybersecurity
-          research.
+          A clients-first view of my current startups, Cyber Essentials
+          readiness work, custom AI workflows, UK cybersecurity compliance
+          agents, marketplace agents, published AI development guide, native
+          macOS utilities, and earlier cybersecurity research.
         </p>
       </div>
 

@@ -6,6 +6,7 @@ import { ProofBlock } from '@/components/ProofBlock';
 import { SocialLinks } from '@/components/SocialLinks';
 import {
   bookConsultUrl,
+  brightCertUrl,
   foundationPostUrl,
   mobileAppsBookGumroadUrl,
 } from '@/content/links';
@@ -24,7 +25,7 @@ export default function Home() {
       <section className="grid gap-12 border-b border-border pb-16 lg:grid-cols-[minmax(0,1fr)_260px] lg:items-start">
         <div className="max-w-3xl">
           <h1 className="font-mono text-3xl font-semibold leading-tight sm:text-4xl">
-            I build secure AI operations systems for service businesses.
+            I build secure AI systems for service businesses and UK SMEs.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted">
             I’m Muhammad Sohaib Roomi, founder of{' '}
@@ -36,9 +37,18 @@ export default function Home() {
             >
               Cognumi
             </a>
-            . I design and deploy AI-managed workflows that help small teams
-            automate scheduling, client follow-ups, reporting, research, and
-            back-office work with security-minded execution.
+            {' '}and{' '}
+            <a
+              href={brightCertUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              BrightCert
+            </a>
+            . I design and deploy AI-managed workflows and Cyber Essentials
+            readiness tools that help small teams move faster with
+            security-minded execution.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -59,7 +69,8 @@ export default function Home() {
           </div>
 
           <p className="mt-6 max-w-xl text-sm leading-6 text-muted">
-            Backed by AI workflow delivery through{' '}
+            Backed by BrightCert’s Cyber Essentials readiness platform, AI
+            workflow delivery through{' '}
             <a
               href="https://agentalent.ai/builders/ce3b41ea-2b9f-40fc-aa57-36f6ebebc6a9"
               target="_blank"
@@ -115,7 +126,9 @@ export default function Home() {
             <div className="mt-4 space-y-4">
               <div>
                 <p className="font-mono text-base font-semibold">Founder</p>
-                <p className="mt-1 text-sm text-muted">Cognumi</p>
+                <p className="mt-1 text-sm text-muted">
+                  Cognumi and BrightCert
+                </p>
               </div>
               <div>
                 <p className="font-mono text-base font-semibold">Builder</p>
@@ -147,6 +160,12 @@ export default function Home() {
             title="Cognumi"
             description="AI-managed operations for service businesses that need calmer, more automated back-office work."
             href="https://www.cognumi.co.uk/"
+          />
+          <ProofBlock
+            label="Startup"
+            title="BrightCert"
+            description="Cyber Essentials readiness for UK SMEs, with plain-English scoring, gap analysis, and reports."
+            href={brightCertUrl}
           />
           <ProofBlock
             label="Delivery"
@@ -215,7 +234,7 @@ export default function Home() {
           />
           <CapabilityRow
             title="Secure automation"
-            description="Bring a cybersecurity lens to automation: UK compliance workflows, data boundaries, failure modes, access control, auditability, and human review where it matters."
+            description="Bring a cybersecurity lens to automation: Cyber Essentials readiness, UK compliance workflows, data boundaries, failure modes, access control, auditability, and human review where it matters."
             detail="Compliance-minded delivery"
           />
           <CapabilityRow
